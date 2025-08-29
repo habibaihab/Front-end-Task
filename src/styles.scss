@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #F8F8F8;
+}
+:root {
+  --main-font: 'Neo Sans Arabic', sans-serif;
+  --secondary-font: "Poppins", sans-serif;
+
+}

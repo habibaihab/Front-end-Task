@@ -1,0 +1,20 @@
+<div class="footer">
+  <div class="date">
+    <div class="date-info">
+      <p class="date-text">تاريخ الإنشاء</p>
+      <div class="date-values">
+        <span>{{ footerData.creationTimestamp | date : "dd/MM/yyyy" }}</span>
+        <span class="dot">·</span>
+        <span>{{ footerData.creationTimestamp | date : "HH:mm" }}</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="creator">
+    <img src="assets/images/frame.png" alt="Logo" class="creator-avatar" />
+    <div class="creator-info">
+      <p class="creator-text">تم الإنشاء بواسطة</p>
+      <p class="creator-name">{{ footerData.creatorName }}</p>
+    </div>
+  </div>
+</div>
