@@ -1,3 +1,4 @@
+import { DatePipe } from '@angular/common';
 import { NumberHeaderComponent } from '../number-header/number-header.component';
 import { Headerdata } from './../../models/header-data';
 import { Component } from '@angular/core';
