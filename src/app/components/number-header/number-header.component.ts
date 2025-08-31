@@ -1,11 +1,13 @@
-import { Component } from '@angular/core';
+import { DatePipe, DecimalPipe } from '@angular/common';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-number-header',
-  imports: [],
+  imports: [DatePipe,DecimalPipe],
   templateUrl: './number-header.component.html',
   styleUrl: './number-header.component.scss'
 })
 export class NumberHeaderComponent {
-
+  @Input() data: any;
+  @Input() dir: 'rtl' | 'ltr' = 'rtl';
 }
