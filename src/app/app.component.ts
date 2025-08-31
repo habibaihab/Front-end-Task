@@ -6,7 +6,7 @@ import { NumberParentComponent } from './components/number-parent/number-parent.
 
 @Component({
   selector: 'app-root',
-  imports: [NavbarComponent,NumberParentComponent,FooterComponentComponent],
+  imports: [NavbarComponent, NumberParentComponent, FooterComponentComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

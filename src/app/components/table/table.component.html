@@ -1,1 +1,36 @@
-<p>table works!</p>
+<div class="table-container" dir="rtl">
+  <div class="table-wrapper">
+    <div class="table-header">
+      <div>العميل</div>
+      <div>تاريخ التعيين</div>
+      <div>تاريخ إلغاء التعيين</div>
+      <div>المسؤول عن التعيين</div>
+      <div>الدقائق المحلية</div>
+      <div>الدقائق الدولية</div>
+      <div>المبلغ</div>
+    </div>
+
+    <div class="table-row" *ngFor="let row of tableData">
+      <div class="client-cell">
+        <img
+          class="avatar"
+          [src]="'assets/images/client-avatar.png'"
+          alt="avatar"
+        />
+        <span class="truncate" title="{{ row.client }}">{{ row.client }}</span>
+      </div>
+      <div class="num-font">
+        {{ row.registrationDate | date : "dd/MM/yyyy" }}
+      </div>
+      <div class="num-font">
+        {{ row.releaseDate ? (row.releaseDate | date : "dd/MM/yyyy") : "-" }}
+      </div>
+      <div>{{ row.registrarName }}</div>
+      <div class="num-font">{{ row.localMinutes }}</div>
+      <div class="num-font">{{ row.internationalMinutes }}</div>
+      <div class="num-font">
+        {{ row.cost | number }} <span class="ar-font">ج.م</span>
+      </div>
+    </div>
+  </div>
+</div>
