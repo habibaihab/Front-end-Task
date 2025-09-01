@@ -28,7 +28,7 @@ export class NumberParentComponent {
     this.tableData = [
       {
         client: 'الشركة الالمانية لإبادة الحشرات',
-        registrationDate: new Date('2023-01-01'),
+        registrationDate: new Date('2024-01-01'),
         registrarName: 'عبدالرحيم إسماعيل ناصف',
         localMinutes: 7654,
         internationalMinutes: 10,
@@ -36,7 +36,7 @@ export class NumberParentComponent {
       },
       {
         client: 'الشركة الالمانية لإبادة الحشرات',
-        registrationDate: new Date('2023-02-01'),
+        registrationDate: new Date('2024-02-01'),
         releaseDate: new Date('2023-11-30'),
         registrarName: 'عبدالرحيم إسماعيل ناصف',
         localMinutes: 7654,
@@ -117,7 +117,7 @@ export class NumberParentComponent {
       },
       {
         client: 'الشركة الالمانية لإبادة الحشرات',
-        registrationDate: new Date('2023-01-01'),
+        registrationDate: new Date('2024-01-01'),
         registrarName: 'عبدالرحيم إسماعيل ناصف',
         localMinutes: 7654,
         internationalMinutes: 20,
@@ -125,7 +125,7 @@ export class NumberParentComponent {
       },
       {
         client: 'الشركة الالمانية لإبادة الحشرات',
-        registrationDate: new Date('2023-02-01'),
+        registrationDate: new Date('2024-02-01'),
         releaseDate: new Date('2023-11-30'),
         registrarName: 'عبدالرحيم إسماعيل ناصف',
         localMinutes: 7654,
@@ -134,8 +134,8 @@ export class NumberParentComponent {
       },
       {
         client: 'الشركة الالمانية لإبادة الحشرات',
-        registrationDate: new Date('2023-03-01'),
-        releaseDate: new Date('2023-10-31'),
+        registrationDate: new Date('2024-03-01'),
+        releaseDate: new Date('2024-10-31'),
         registrarName: 'عبدالرحيم إسماعيل ناصف',
         localMinutes: 7654,
         internationalMinutes: 22,
@@ -143,8 +143,8 @@ export class NumberParentComponent {
       },
       {
         client: 'الشركة الالمانية لإبادة الحشرات',
-        registrationDate: new Date('2023-03-01'),
-        releaseDate: new Date('2023-10-31'),
+        registrationDate: new Date('2024-03-01'),
+        releaseDate: new Date('2024-10-31'),
         registrarName: 'عبدالرحيم إسماعيل ناصف',
         localMinutes: 7654,
         internationalMinutes: 23,
@@ -152,8 +152,8 @@ export class NumberParentComponent {
       },
       {
         client: 'الشركة الالمانية لإبادة الحشرات',
-        registrationDate: new Date('2023-03-01'),
-        releaseDate: new Date('2023-10-31'),
+        registrationDate: new Date('2024-03-01'),
+        releaseDate: new Date('2024-10-31'),
         registrarName: 'عبدالرحيم إسماعيل ناصف',
         localMinutes: 7654,
         internationalMinutes: 24,
@@ -170,8 +170,8 @@ export class NumberParentComponent {
       },
       {
         client: 'الشركة الالمانية لإبادة الحشرات',
-        registrationDate: new Date('2023-05-01'),
-        releaseDate: new Date('2023-08-31'),
+        registrationDate: new Date('2024-05-01'),
+        releaseDate: new Date('2024-08-31'),
         registrarName: 'عبدالرحيم إسماعيل ناصف',
         localMinutes: 7654,
         internationalMinutes: 26,
@@ -179,8 +179,8 @@ export class NumberParentComponent {
       },
       {
         client: 'الشركة الالمانية لإبادة الحشرات',
-        registrationDate: new Date('2023-06-01'),
-        releaseDate: new Date('2023-07-31'),
+        registrationDate: new Date('2024-06-01'),
+        releaseDate: new Date('2024-07-31'),
         registrarName: 'عبدالرحيم إسماعيل ناصف',
         localMinutes: 7654,
         internationalMinutes: 27,
@@ -188,8 +188,8 @@ export class NumberParentComponent {
       },
       {
         client: 'الشركة الالمانية لإبادة الحشرات',
-        registrationDate: new Date('2023-07-01'),
-        releaseDate: new Date('2023-06-30'),
+        registrationDate: new Date('2024-07-01'),
+        releaseDate: new Date('2024-06-30'),
         registrarName: 'عبدالرحيم إسماعيل ناصف',
         localMinutes: 7654,
         internationalMinutes: 28,
@@ -197,8 +197,8 @@ export class NumberParentComponent {
       },
       {
         client: 'الشركة الالمانية لإبادة الحشرات',
-        registrationDate: new Date('2023-08-01'),
-        releaseDate: new Date('2023-05-31'),
+        registrationDate: new Date('2024-08-01'),
+        releaseDate: new Date('2024-05-31'),
         registrarName: 'عبدالرحيم إسماعيل ناصف',
         localMinutes: 7654,
         internationalMinutes: 29,
@@ -206,7 +206,7 @@ export class NumberParentComponent {
       },
       {
         client: 'الشركة الالمانية لإبادة الحشرات',
-        registrationDate: new Date('2023-01-01'),
+        registrationDate: new Date('2024-01-01'),
         registrarName: 'عبدالرحيم إسماعيل ناصف',
         localMinutes: 7654,
         internationalMinutes: 122,
@@ -214,8 +214,8 @@ export class NumberParentComponent {
       },
       {
         client: 'الشركة الالمانية لإبادة الحشرات',
-        registrationDate: new Date('2023-02-01'),
-        releaseDate: new Date('2023-11-30'),
+        registrationDate: new Date('2024-02-01'),
+        releaseDate: new Date('2024-11-30'),
         registrarName: 'عبدالرحيم إسماعيل ناصف',
         localMinutes: 7654,
         internationalMinutes: 122,
@@ -295,7 +295,7 @@ export class NumberParentComponent {
       },
       {
         client: 'الشركة الالمانية لإبادة الحشرات',
-        registrationDate: new Date('2023-01-01'),
+        registrationDate: new Date('2024-01-01'),
         registrarName: 'عبدالرحيم إسماعيل ناصف',
         localMinutes: 7654,
         internationalMinutes: 70,
@@ -384,7 +384,7 @@ export class NumberParentComponent {
       },
       {
         client: 'الشركة الالمانية لإبادة الحشرات',
-        registrationDate: new Date('2023-01-01'),
+        registrationDate: new Date('2024-01-01'),
         registrarName: 'عبدالرحيم إسماعيل ناصف',
         localMinutes: 7654,
         internationalMinutes: 122,
@@ -473,7 +473,7 @@ export class NumberParentComponent {
       },
       {
         client: 'الشركة الالمانية لإبادة الحشرات',
-        registrationDate: new Date('2023-01-01'),
+        registrationDate: new Date('2024-01-01'),
         registrarName: 'عبدالرحيم إسماعيل ناصف',
         localMinutes: 7654,
         internationalMinutes: 122,
@@ -553,7 +553,7 @@ export class NumberParentComponent {
       },
       {
         client: 'الشركة الالمانية لإبادة الحشرات',
-        registrationDate: new Date('2023-08-01'),
+        registrationDate: new Date('2024-08-01'),
         releaseDate: new Date('2023-05-31'),
         registrarName: 'عبدالرحيم إسماعيل ناصف',
         localMinutes: 7654,
@@ -562,7 +562,7 @@ export class NumberParentComponent {
       },
       {
         client: 'الشركة الالمانية لإبادة الحشرات',
-        registrationDate: new Date('2023-01-01'),
+        registrationDate: new Date('2024-01-01'),
         registrarName: 'عبدالرحيم إسماعيل ناصف',
         localMinutes: 7654,
         internationalMinutes: 122,
@@ -570,7 +570,7 @@ export class NumberParentComponent {
       },
       {
         client: 'الشركة الالمانية لإبادة الحشرات',
-        registrationDate: new Date('2023-02-01'),
+        registrationDate: new Date('2024-02-01'),
         releaseDate: new Date('2023-11-30'),
         registrarName: 'عبدالرحيم إسماعيل ناصف',
         localMinutes: 7654,

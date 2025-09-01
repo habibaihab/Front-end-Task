@@ -10,7 +10,7 @@
       <div>المبلغ</div>
     </div>
 
-    <div class="table-row" *ngFor="let row of tableData">
+    <div class="table-row" *ngFor="let row of paginatedData ?? []">
       <div class="client-cell">
         <img
           class="avatar"
@@ -33,4 +33,30 @@
       </div>
     </div>
   </div>
+  <div class="pagination-container">
+  <div class="page-size">
+    <span class="ar-font">عرض</span>
+    <select (change)="changePageSize($event)" dir="ltr">
+      <option class="num-font" [value]="10">10</option>
+      <option class="num-font" [value]="20">20</option>
+      <option class="num-font" [value]="30">30</option>
+      <option class="num-font" [value]="50">50</option>
+    </select>
+    <span class="num-font"><span class="ar-font">من أصل </span>{{ totalItems }}</span>
+  </div>
+   <div class="pages" dir="ltr">
+    <span class="arrow" (click)="changePage(currentPage - 1)">&lt;</span>
+    <span
+      *ngFor="let p of [].constructor(totalPages); let i = index"
+      [class.active]="currentPage === i + 1"
+      (click)="changePage(i + 1)"
+    >
+      {{ i + 1 }}
+    </span>
+    <span class="arrow" (click)="changePage(currentPage + 1)">&gt;</span>
+  </div>
+
 </div>
+</div>
+
+

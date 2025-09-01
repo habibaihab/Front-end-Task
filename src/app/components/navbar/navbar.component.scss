@@ -29,7 +29,6 @@
         border: none;
         color: black;
         font-size: 14px;
-        // padding: 5px 8px;
         border-radius: 5.47px;
         cursor: pointer;
         width: 20px;
@@ -38,6 +37,7 @@
 
         &:hover {
             background: #c0392b;
+            color: #ffffff;
         }
     }
 }
