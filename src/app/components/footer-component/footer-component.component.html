@@ -1,7 +1,7 @@
 <div class="footer">
   <div class="date">
     <div class="date-info">
-      <p class="date-text">تاريخ الإنشاء</p>
+      <p class="date-text">{{ "footer.creationDate" | translate }}</p>
       <div class="date-values">
         <span>{{ footerData.creationTimestamp | date : "dd/MM/yyyy" }}</span>
         <span class="dot">·</span>
@@ -13,7 +13,7 @@
   <div class="creator">
     <img src="assets/images/avatar.png" alt="Logo" class="creator-avatar" />
     <div class="creator-info">
-      <p class="creator-text">تم الإنشاء بواسطة</p>
+      <p class="creator-text">{{ "footer.createdBy" | translate }}</p>
       <p class="creator-name">{{ footerData.creatorName }}</p>
     </div>
   </div>

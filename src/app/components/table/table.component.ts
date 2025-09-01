@@ -1,9 +1,10 @@
 import { CommonModule, DatePipe, DecimalPipe } from '@angular/common';
 import { Component, Input } from '@angular/core';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-table',
-  imports: [DatePipe, DecimalPipe, CommonModule],
+  imports: [DatePipe, DecimalPipe, CommonModule,TranslateModule],
   templateUrl: './table.component.html',
   styleUrls: ['./table.component.scss']
 })
@@ -36,5 +37,7 @@ export class TableComponent {
   this.currentPage = 1;
 }
 
+constructor(translate:TranslateService){
 
+  }
 }

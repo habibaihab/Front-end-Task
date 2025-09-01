@@ -8,7 +8,8 @@
     font-family: Arial, sans-serif;
     height: 42px;
     border-bottom: 1px solid #E4E4E4;
-    width: 892px;
+    max-width: 892px;
+    width: 100%;
     margin: 0 auto;
     border-radius: 8px 8px 0 0;
 }
@@ -64,4 +65,38 @@
         font-family: var(--main-font);
 
     }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    width: 100%;
+    border-radius: 0;
+  }
+  .left{
+    padding-right: 55px;
+}
+}
+
+@media (min-width: 601px) and (max-width: 991px) {
+  .navbar {
+    width: 100%;
+    padding: 0 16px;
+    border-radius: 4px 4px 0 0;
+  }
+  .left, .right {
+    flex-direction: row;
+    gap: 8px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    width: 100%;
+    padding: 0 16px;
+    border-radius: 8px 8px 0 0;
+  }
+  .left, .right {
+    flex-direction: row;
+    gap: 10px;
+  }
 }

@@ -1,12 +1,5 @@
 <section class="header">
-  <div class="header-row" dir="rtl">
-    <div class="number-status">
-      <span class="msisdn">012345678910</span>
-      <div class="status-container">
-        <span class="status-badge">قيد الإستخدام</span>
-      </div>
-    </div>
-    
+  <div class="header-row">
     <div class="menu-block">
       <button
         class="menu-btn"
@@ -16,87 +9,98 @@
       >
         ⋯
       </button>
-
       <div class="dropdown-menu" *ngIf="menuOpen">
         <div class="dropdown-item">
           <i class="fa fa-pencil"></i>
-          تعديل الرقم
+          {{ "statistics.settingsButton.edit" | translate }}
         </div>
         <div class="dropdown-item danger">
           <i class="fa-solid fa-link-slash danger"></i>
-          إلغاء التعيين
+          {{ "statistics.settingsButton.release" | translate }}
         </div>
       </div>
     </div>
-  </div>
-  <div class="info-row" dir="rtl">
-    <div class="info-col">
-      <h4 class="info-title">اسم البروتوكول</h4>
-      <p class="info-value truncate" title="{{ data.protocolName }}">
-        {{ data.protocolName }}
-      </p>
-    </div>
-    <div class="divider"></div>
-    <div class="info-col">
-      <h4 class="info-title">الدولة</h4>
-      <div class="client-info">
-        <img class="country-avatar" src="assets/images/sa.png" alt="sudia" />
-        <p class="info-value truncate" title="{{ data.country }}">
-          {{ data.country }}
-        </p>
+    <div class="number-status">
+      <div class="status-container">
+        <span class="status-badge">{{
+          "statistics.status.active" | translate
+        }}</span>
       </div>
-    </div>
-    <div class="divider"></div>
-    <div class="info-col">
-      <h4 class="info-title">العميل الحالي</h4>
-      <div class="client-info">
-        <img
-          class="client-avatar"
-          src="assets/images/client-avatar.png"
-          alt="client-avatar"
-        />
-        <p class="info-value truncate" title="{{ data.currentClient }}">
-          {{ data.currentClient }}
-        </p>
-      </div>
-    </div>
-
-    <div class="divider"></div>
-
-    <div class="info-col">
-      <h4 class="info-title">عدد الإمتدادات</h4>
-      <p class="info-value num">{{ data.extensionCount | number : "2.0" }}</p>
+      <span class="msisdn">012345678910</span>
     </div>
   </div>
-  <div class="info-row" dir="rtl">
-    <div class="info-col">
-      <h4 class="info-title">تاريخ آخر شحنة</h4>
-      <p class="info-value num">
-        {{ data.lastShipmentDate | date : "yyyy/MM/dd" }}
+  <div class="info-row">
+  <div class="info-col">
+    <h4 class="info-title">{{ "statistics.extensionCount" | translate }}</h4>
+    <p class="info-value num">{{ data.extensionCount | number : "2.0" }}</p>
+  </div>
+  <div class="divider"></div>
+  <div class="info-col">
+    <h4 class="info-title">{{ "statistics.currentClient" | translate }}</h4>
+    <div class="client-info">
+      <p class="info-value truncate" title="{{ data.currentClient }}">
+        {{ data.currentClient }}
       </p>
-    </div>
-    <div class="divider"></div>
-    <div class="info-col">
-      <h4 class="info-title">الرصيد الحالي</h4>
-      <p class="info-value num">
-        {{ data.currentCredits }} <span class="currency">ج.م</span>
-      </p>
-    </div>
-    <div class="divider"></div>
-    <div class="info-col">
-      <h4 class="info-title">الرصيد المستخدم للعميل الحالي</h4>
-      <p class="info-value num">
-        {{ data.clientUsedCredits }}<span class="currency"> ج.م</span>
-      </p>
-    </div>
-
-    <div class="divider"></div>
-
-    <div class="info-col">
-      <h4 class="info-title">الرصيد المستخدم للرقم ككل</h4>
-      <p class="info-value num">
-        {{ data.totalUsedCredits }}<span class="currency"> ج.م</span>
-      </p>
+      <img
+        class="client-avatar"
+        src="assets/images/client-avatar.png"
+        alt="client-avatar"
+      />
     </div>
   </div>
+  <div class="divider"></div>
+  <div class="info-col">
+    <h4 class="info-title">{{ "statistics.country" | translate }}</h4>
+    <div class="client-info">
+      <p class="info-value truncate" title="{{ data.country }}">
+        {{ data.country }}
+      </p>
+      <img class="country-avatar" src="assets/images/sa.png" alt="sudia" />
+    </div>
+  </div>
+  <div class="divider"></div>
+  <div class="info-col">
+    <h4 class="info-title">{{ "statistics.protocolName" | translate }}</h4>
+    <p class="info-value truncate" title="{{ data.protocolName }}">
+      {{ data.protocolName }}
+    </p>
+  </div>
+</div>
+
+  <div class="info-row">
+  <div class="info-col">
+    <h4 class="info-title">
+      {{ "statistics.numberTotalUsedCredits" | translate }}
+    </h4>
+    <p class="info-value num">
+      {{ data.totalUsedCredits }}<span class="currency"> ج.م</span>
+    </p>
+  </div>
+  <div class="divider"></div>
+  <div class="info-col">
+    <h4 class="info-title">
+      {{ "statistics.clientUsedCredits" | translate }}
+    </h4>
+    <p class="info-value num">
+      {{ data.clientUsedCredits }}<span class="currency"> ج.م</span>
+    </p>
+  </div>
+  <div class="divider"></div>
+  <div class="info-col">
+    <h4 class="info-title">{{ "statistics.currentCredits" | translate }}</h4>
+    <p class="info-value num">
+      {{ data.currentCredits }} <span class="currency">ج.م</span>
+    </p>
+  </div>
+  <div class="divider"></div>
+  <div class="info-col">
+    <h4 class="info-title">
+      {{ "statistics.lastShipmentDate" | translate }}
+    </h4>
+    <p class="info-value num">
+      {{ data.lastShipmentDate | date : "yyyy/MM/dd" }}
+    </p>
+  </div>
+</div>
+
 </section>

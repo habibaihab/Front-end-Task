@@ -1,0 +1,40 @@
+{
+  "titleBarHeading": "Display Number",
+  "statistics": {
+    "status": {
+      "active": "Active"
+    },
+    "settingsButton": {
+      "edit": "Edit Number",
+      "release": "Release"
+    },
+    "extensionCount": "Extension Count",
+    "currentClient": "Current Client",
+    "country": "Country",
+    "protocolName": "Protocol Name",
+    "lastShipmentDate": "Last shipment Date",
+    "currentCredits": "Current Credits",
+    "clientUsedCredits": "Client's Used Credits",
+    "numberTotalUsedCredits": "Number's Total Used Credits"
+  },
+  "table": {
+    "tableHeadings": {
+      "client": "Client",
+      "registrationDate": "Registration Date",
+      "releaseDate": "Release Date",
+      "registrarName": "Registrar's Name",
+      "localMinutes": "Local Minutes",
+      "internationalMinutes": "International Minutes",
+      "totalCost": "Total Cost"
+    },
+    "emptyMessage": "!No Data Found",
+    "pagination": {
+      "showing": "Showing",
+      "from": "From"
+    }
+  },
+  "footer": {
+    "creationDate": "Creation Date",
+    "createdBy": "Created By"
+  }
+}

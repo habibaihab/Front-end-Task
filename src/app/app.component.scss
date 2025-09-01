@@ -1,7 +1,6 @@
 .main-container {
   display: flex;
   flex-direction: column; 
-  align-items: center;   
   justify-content: center; 
   min-height: 100vh;      
   margin: 0 auto;         
@@ -9,4 +8,12 @@
   width: 90%;             
   max-width: 1200px;  
   background-color: #F8F8F8;
+}
+@media (max-width: 991px) {
+  .main-container {
+    align-items: flex-end; 
+    text-align: right;  
+    justify-content: start;
+    text-align: start;
+  }
 }

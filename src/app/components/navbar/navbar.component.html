@@ -1,14 +1,14 @@
-<!-- navbar.component.html -->
 <nav class="navbar">
   <div class="left">
     <button class="close-btn">✖</button>
-    <select class="lang-select">
+    <select (change)="onLangSelect($event)">
+      <option value="" disabled selected>اللغة</option>
       <option value="ar">عربي</option>
       <option value="en">English</option>
     </select>
   </div>
   <div class="right">
-    <span class="text">عرض الرقم</span>
+    <span class="text">{{ "titleBarHeading" | translate }}</span>
     <div class="hash-box">#</div>
   </div>
 </nav>

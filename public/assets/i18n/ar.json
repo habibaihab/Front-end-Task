@@ -1,0 +1,40 @@
+{
+  "titleBarHeading": "عرض الرقم",
+  "statistics": {
+    "status": {
+      "active": "قيد الإستخدام"
+    },
+    "settingsButton": {
+      "edit": "تعديل الرقم",
+      "release": "إلغاء التعيين"
+    },
+    "extensionCount": "عدد الإمتدادات",
+    "currentClient": "العميل الحالي",
+    "country": "الدولة",
+    "protocolName": "اسم البروتوكول",
+    "lastShipmentDate": "تاريخ اخر شحنة",
+    "currentCredits": "الرصيد الحالي",
+    "clientUsedCredits": "الرصيد المستخدم للعميل الحالي",
+    "numberTotalUsedCredits": "الرصيد المستخدم للرقم ككل"
+  },
+  "table": {
+    "tableHeadings": {
+      "client": "العميل",
+      "registrationDate": "تاريخ التعيين",
+      "releaseDate": "تاريخ إلغاء التعيين",
+      "registrarName": "المسؤول عن التعيين",
+      "localMinutes": "الدقائق المحلية",
+      "internationalMinutes": "الدقائق الدولية",
+      "totalCost": "المبلغ"
+    },
+    "emptyMessage": "لا يوجد بيانات!",
+    "pagination": {
+      "showing": "عرض",
+      "from": "من اصل"
+    }
+  },
+  "footer": {
+    "creationDate": "تاريخ الإنشاء",
+    "createdBy": "تم الإنشاء بواسطة"
+  }
+}
