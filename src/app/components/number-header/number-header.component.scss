@@ -9,6 +9,11 @@
   margin-top: 0.7rem;
   padding: 12px;
   gap: 24px;
+  overflow-x: auto;     
+  scrollbar-width: none;
+}
+.header::-webkit-scrollbar {
+  display: none; 
 }
 
 .header-row {
@@ -16,7 +21,7 @@
   justify-content: space-between;
   align-items: center;
   background: #ffffff;
-  width: 848px;
+   min-width: 848px;
   height: 32px;
   margin: 0 auto;
 }
@@ -102,6 +107,7 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   width: 160px;
   z-index: 100;
+  left: 15px;
 }
 
 .dropdown-item {
@@ -155,7 +161,7 @@
   gap: 16px;
   margin: 15px 0px 18px 0px;
   background-color: #fff;
-  width: 848px;
+   min-width: 848px;
   height: 46px;
 }
 
@@ -233,4 +239,31 @@
   overflow: hidden;
   text-overflow: ellipsis;
   cursor: pointer;
+}
+@media (max-width: 768px) {
+  .header {
+    padding: 8px;
+  }
+
+  .msisdn {
+    font-size: 16px;
+  }
+
+  .info-col {
+    min-width: 140px; 
+  }
+
+  .divider {
+    display: none; 
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .msisdn {
+    font-size: 18px;
+  }
+
+  .info-col {
+    min-width: 160px;
+  }
 }
