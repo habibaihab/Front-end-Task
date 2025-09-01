@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  max-width:872px;
+  max-width: 872px;
   margin: 0 auto;
   height: 188px;
   background-color: white;
@@ -9,11 +9,12 @@
   margin-top: 0.7rem;
   padding: 12px;
   gap: 24px;
-  overflow-x: auto;     
+  overflow-x: auto;
   scrollbar-width: none;
 }
+
 .header::-webkit-scrollbar {
-  display: none; 
+  display: none;
 }
 
 .header-row {
@@ -21,7 +22,7 @@
   justify-content: space-between;
   align-items: center;
   background: #ffffff;
-   min-width: 848px;
+  min-width: 848px;
   height: 32px;
   margin: 0 auto;
 }
@@ -161,7 +162,7 @@
   gap: 16px;
   margin: 15px 0px 18px 0px;
   background-color: #fff;
-   min-width: 848px;
+  min-width: 848px;
   height: 46px;
 }
 
@@ -239,7 +240,10 @@
   overflow: hidden;
   text-overflow: ellipsis;
   cursor: pointer;
+  direction: rtl;
+  text-align: left;
 }
+
 @media (max-width: 768px) {
   .header {
     padding: 8px;
@@ -250,11 +254,11 @@
   }
 
   .info-col {
-    min-width: 140px; 
+    min-width: 140px;
   }
 
   .divider {
-    display: none; 
+    display: none;
   }
 }
 
