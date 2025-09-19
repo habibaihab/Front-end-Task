@@ -25,7 +25,7 @@
       "releaseDate": "Release Date",
       "registrarName": "Registrar's Name",
       "localMinutes": "Local Minutes",
-      "internationalMins": "internationalMin(s)",
+      "internationalMins": "InternationalMin(s)",
       "totalCost": "Total Cost"
     },
     "emptyMessage": "!No Data Found",

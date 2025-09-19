@@ -1,7 +1,7 @@
 <nav class="navbar">
   <div class="left">
-    <button class="close-btn">✖</button>
-    <select (change)="onLangSelect($event)">
+    <button class="close-btn" (click)="close.emit()">✖</button>
+    <select class="lang-select"  (change)="onLangSelect($event)">
       <option value="" disabled selected>اللغة</option>
       <option value="ar">عربي</option>
       <option value="en">English</option>

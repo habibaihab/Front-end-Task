@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -8,11 +8,11 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
   styleUrls: ['./navbar.component.scss'], 
 })
 export class NavbarComponent {
+    @Output() close = new EventEmitter<void>();
   constructor(private translate: TranslateService) {
     translate.use('ar');
 
   }
-
   onLangSelect(event: Event) {
     const selectElement = event.target as HTMLSelectElement | null;
     const lang = selectElement?.value; 

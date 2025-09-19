@@ -8,7 +8,7 @@
   font-family: Arial, sans-serif;
   height: 42px;
   border-bottom: 1px solid #E4E4E4;
-  max-width: 892px;
+  max-width: 872px;
   width: 100%;
   margin: 0 auto;
   border-radius: 8px 8px 0 0;
@@ -21,10 +21,39 @@
   background-color: #ffffff;
 
   .lang-select {
-    padding: 4px 6px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
+  appearance: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 6px 30px 6px 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  outline: none;
+  position: relative;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L5 5L9 1' stroke='%23333' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px;
+
+  &:hover {
+    border-color: #3e97ff;
+    box-shadow: 0 0 6px rgba(62, 151, 255, 0.3);
   }
+
+  &:focus {
+    border-color: #3e97ff;
+    box-shadow: 0 0 8px rgba(62, 151, 255, 0.4);
+  }
+}
+
+.lang-select option {
+  background-color: #fff;
+  color: #333;
+}
+
 
   .close-btn {
     background: #F4F4F4;

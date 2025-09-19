@@ -1,4 +1,4 @@
-<div class="table-container" dir="rtl">
+<div class="table-container"[dir]="currentLang === 'ar' ? 'rtl' : 'ltr'" >
   <div class="table-wrapper">
     <div class="table-header">
       <div>{{ "table.tableHeadings.client" | translate }}</div>
@@ -9,7 +9,6 @@
       <div>{{ "table.tableHeadings.internationalMins" | translate }}</div>
       <div>{{ "table.tableHeadings.totalCost" | translate }}</div>
     </div>
-
     <div class="table-row" *ngFor="let row of paginatedData ?? []">
       <div class="client-cell">
         <img
@@ -47,7 +46,7 @@
         >{{ totalItems }}</span
       >
     </div>
-    <div class="pages" dir="ltr">
+    <div class="pages" >
       <span class="arrow" (click)="changePage(currentPage - 1)">&lt;</span>
       <span
         *ngFor="let p of [].constructor(totalPages); let i = index"
