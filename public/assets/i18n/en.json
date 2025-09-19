@@ -15,7 +15,8 @@
     "lastShipmentDate": "Last shipment Date",
     "currentCredits": "Current Credits",
     "clientUsedCredits": "Client's Used Credits",
-    "numberTotalUsedCredits": "Number's Total Used Credits"
+    "numberTotalUsedCredits": "Number's Total Used Credits",
+    "EGP":"EGP"
   },
   "table": {
     "tableHeadings": {
@@ -24,7 +25,7 @@
       "releaseDate": "Release Date",
       "registrarName": "Registrar's Name",
       "localMinutes": "Local Minutes",
-      "internationalMinutes": "International Minutes",
+      "internationalMins": "internationalMin(s)",
       "totalCost": "Total Cost"
     },
     "emptyMessage": "!No Data Found",

@@ -15,7 +15,8 @@
     "lastShipmentDate": "تاريخ اخر شحنة",
     "currentCredits": "الرصيد الحالي",
     "clientUsedCredits": "الرصيد المستخدم للعميل الحالي",
-    "numberTotalUsedCredits": "الرصيد المستخدم للرقم ككل"
+    "numberTotalUsedCredits": "الرصيد المستخدم للرقم ككل",
+    "EGP":"ج.م"
   },
   "table": {
     "tableHeadings": {
@@ -24,7 +25,7 @@
       "releaseDate": "تاريخ إلغاء التعيين",
       "registrarName": "المسؤول عن التعيين",
       "localMinutes": "الدقائق المحلية",
-      "internationalMinutes": "الدقائق الدولية",
+      "internationalMins": "الدقائق الدولية",
       "totalCost": "المبلغ"
     },
     "emptyMessage": "لا يوجد بيانات!",

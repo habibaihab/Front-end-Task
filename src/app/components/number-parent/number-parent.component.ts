@@ -21,7 +21,7 @@ export class NumberParentComponent {
       currentClient: 'الشركة الألمانية للإبادة',
       extensionCount: 9,
       lastShipmentDate: new Date('2024-12-29'),
-      currentCredits: 5000,
+      currentCredits: 5000 ,
       clientUsedCredits: 5000,
       totalUsedCredits: 5000,
     };
